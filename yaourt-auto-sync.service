@@ -1,0 +1,13 @@
+[Unit]
+Description=Automatic Yaourt Synchronisation
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/yaourt -Syy --noconfirm
+TimeoutStopSec=30
+KillMode=process
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target

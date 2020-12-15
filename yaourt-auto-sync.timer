@@ -1,0 +1,10 @@
+[Unit]
+Description=Automatic Yaourt package synchronisation every 4 hours
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=240min
+Unit=yaourt-auto-sync.service
+
+[Install]
+WantedBy=multi-user.target
