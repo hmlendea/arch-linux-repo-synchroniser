@@ -4,7 +4,7 @@ Description=Automatic package repository synchronisation every 4 hours
 [Timer]
 OnBootSec=5min
 OnUnitActiveSec=240min
-Unit=repo-syncroniser.service
+Unit=repo-synchroniser.service
 
 [Install]
 WantedBy=multi-user.target
