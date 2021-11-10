@@ -4,7 +4,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/sync-repos
+ExecStart=/usr/bin/repo-syncroniser
 TimeoutStopSec=30
 KillMode=process
 KillSignal=SIGINT
