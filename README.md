@@ -1,3 +1,5 @@
+[![Latest GitHub release](https://img.shields.io/github/v/release/hmlendea/arch-linux-repo-synchroniser)](https://github.com/hmlendea/arch-linux-repo-synchroniser/releases/latest)
+
 # About
 
 Systemd unit for automatically synchronising Arch Linux package repositories.
